@@ -1,0 +1,27 @@
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    height: calc(100vh - 50px);
+  }
+
+  .other {
+    flex: 4;
+  }
+
+  body {
+    background: #fff;
+    font-family: 'Inter';
+
+
+  }
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }

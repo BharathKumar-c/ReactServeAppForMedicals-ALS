@@ -1,0 +1,22 @@
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.paper-Style {
+  padding: 30;
+  width: '40%';
+  margin: '0 auto';
+  margin-top: 4.5%;
+  margin-left: '12%';
+  margin-bottom: '4.5%';
+  background: '#FFFFFF';
+}
+.headerStryle{
+     margin: 0 ;
+     font-Size:24;
+     font-family: 'Inter';
+     font-style: normal;
+     color:'red'
+ };
+

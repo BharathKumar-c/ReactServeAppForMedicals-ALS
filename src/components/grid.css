@@ -1,0 +1,44 @@
+.header-black {
+    background-color: #0F585E;
+    color: white;
+  }
+
+  .header-green {
+    background-color: green;
+    color: white;
+  }
+  .scrollable-element {
+    scrollbar-color: red; /* red is for the thumb and yellow is for the track */
+  }
+  .pointer-envent{
+   pointer-events:'none'
+  }
+
+  .ag-theme-balham .ag-icon-menu:before,
+  .ag-theme-balham .ag-icon-asc:before,
+  .ag-theme-balham .ag-icon-desc:before,
+  .ag-theme-balham .ag-icon-filter:before{
+    color: #FFFFFF;
+  }
+  .ag-theme-alpine .ag-icon-menu {
+    background: transparent
+      url('https://www.ag-grid.com/example-assets/svg-icons/menu.svg')
+      center/contain no-repeat;
+      color: #FFFFFF;
+    }
+    .ag-theme-alpine .ag-icon-desc {
+      background: transparent
+        url('https://www.ag-grid.com/example-assets/svg-icons/desc.svg')
+        center/contain no-repeat;
+      color:#FFFFFF ;
+    }
+
+    .ag-theme-alpine .ag-icon-asc {
+      background: transparent
+        url('https://www.ag-grid.com/example-assets/svg-icons/asc.svg')
+        center/contain no-repeat;
+        color:#FFFFFF ;
+      }
+      .ag-header-cell-label .ag-header-icon.ag-sort-order {
+        display: none
+      }
